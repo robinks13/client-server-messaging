@@ -1,0 +1,16 @@
+# Compiled programs and object files
+/client
+/server
+*.o
+
+# Runtime messages, uploaded files, and downloads
+/history/*
+!/history/.gitkeep
+/files/*
+!/files/.gitkeep
+/downloads/*
+!/downloads/.gitkeep
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
